@@ -1,6 +1,20 @@
 # postinstall
 Das Linux-Postinstall Repo
 
+
+## Linux-LXC-Container
+
+```bash
+mkdir /apps && cd /apps
+git clone https://github.com/Mesrine88/postinstall.git
+cd postinstall
+apt install dos2unix -y
+dos2unix *
+chmod +x lxc-postinstall.sh
+bash vm-postinstall.sh
+```
+___
+
 ## Linux-VMs
 
 ```bash
@@ -12,10 +26,9 @@ dos2unix *
 chmod +x vm-postinstall.sh
 bash vm-postinstall.sh
 ```
+____
 
-
-## Linux-LXC-Container
-
+## PVE
 
 ```bash
 mkdir /apps && cd /apps
@@ -23,10 +36,7 @@ git clone https://github.com/Mesrine88/postinstall.git
 cd postinstall
 apt install dos2unix -y
 dos2unix *
-chmod +x lxc-postinstall.sh
-bash vm-postinstall.sh
+chmod +x postinstallPVE.sh
+bash postinstallPVE.sh
 ```
 
-
-
-## PVE
