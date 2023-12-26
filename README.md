@@ -40,3 +40,8 @@ chmod +x postinstallPVE.sh
 bash postinstallPVE.sh
 ```
 
+___
+
+
+Dasselbe kann man auch nur mit der Docker-Installation machen...
+Später soll ein Übergeordnetes-Skript kommen, welches danach fragt ob es sich um eine VM, LXC oder PVE handelt, ob mybash und Docker installiert werden sollen uvm....
