@@ -4,8 +4,11 @@ Das Linux-Postinstall Repo
 ## Linux-VMs
 
 ```bash
-git clone
-cd postinstall 
+mkdir /apps && cd /apps
+git clone https://github.com/Mesrine88/postinstall.git
+cd postinstall
+apt install dos2unix -y
+dos2unix *
 chmod +x vm-postinstall.sh
 ```
 
@@ -14,8 +17,11 @@ chmod +x vm-postinstall.sh
 
 
 ```bash
-git clone
-cd postinstall 
+mkdir /apps && cd /apps
+git clone https://github.com/Mesrine88/postinstall.git
+cd postinstall
+apt install dos2unix -y
+dos2unix *
 chmod +x lxc-postinstall.sh
 ```
 
