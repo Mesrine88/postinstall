@@ -8,13 +8,15 @@ apt install net-tools curl neofetch wget qemu-guest-agent git nala gnupg dos2uni
 dos2unix *
 
 # BashRC auf meine Wünsche anpassen
-cat /apps/postinstall/.bashrc >> ~/.bashrc
+cp /apps/postinstall/.bashrc >> ~/.bashrc
 
 # angepasste Bash nutzen
 source ~/.bashrc
 
 # Profil durch aufgehübschtes MODT erweitern
-cat /apps/postinstall/motd.sh >> /etc/profile.d/motd.sh
+cp /apps/postinstall/motd.sh >> /etc/profile.d/motd.sh
+# cp /apps/postinstall/baru-motd.sh >> /etc/profile.d/baru-motd.sh
+# chmod +x /etc/profile.d/baru-motd.sh
 chmod +x /etc/profile.d/motd.sh
 
 # Benutzer nach Docker-Installation fragen
