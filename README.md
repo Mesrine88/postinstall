@@ -11,7 +11,7 @@ cd postinstall
 apt install dos2unix -y
 dos2unix *
 chmod +x lxc-postinstall.sh
-bash vm-postinstall.sh
+bash lxc-postinstall.sh
 ```
 ___
 
