@@ -1,4 +1,3 @@
-  GNU nano 7.2                                                                             /etc/profile.d/modt.sh 
 #!/bin/bash
 
 # Farbcodes fur Magenta und Blau
