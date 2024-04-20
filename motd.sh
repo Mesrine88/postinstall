@@ -27,7 +27,7 @@ echo -e "${MAGENTA}*                                                            
 echo -e "${MAGENTA}*********************************************************************"
 
 echo -e "${NC} "
-echo -e " all Copyrights belongs to ®© wwlabs.cc ♛ 📨 info@wwlabs.cc"
+echo -e "${BLUE} all Copyrights belongs to ${MAGENTA}®© wwlabs.cc ${NC}♛ 📨 ${BLUE}info@wwlabs.cc"
 echo -e "${NC} "
 echo -e "${NC} "
 
