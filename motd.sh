@@ -29,6 +29,7 @@ echo -e "${MAGENTA}*************************************************************
 echo -e "${NC} "
 echo -e "${BLUE} all Copyrights belongs to ${MAGENTA}®© wwlabs.cc ${NC}♛ 📨 ${BLUE}info@wwlabs.cc"
 echo -e "${NC} "
+ip a | grep /22
 echo -e "${NC} "
 
 neofetch
