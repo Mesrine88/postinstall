@@ -19,7 +19,7 @@ apt update
 apt-cache policy docker-ce
 
 # Step 7: Install Docker
-apt install docker-ce
+apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
 # Step 8: Test the Docker status
 # systemctl status docker
