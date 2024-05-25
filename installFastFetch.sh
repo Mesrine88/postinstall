@@ -18,6 +18,8 @@ wget https://github.com/fastfetch-cli/fastfetch/releases/download/2.13.2/fastfet
 
 # Installation
 apt install fastfetch-linux-amd64.deb
+# for some other is
+# dpkg --install fastfetch-linux-amd64.deb
 
 # Only my own VMs with /etc/profile.d/modt.sh
 sudo sed -i 's/neofetch/fastfetch/' /etc/profile.d/motd.sh
