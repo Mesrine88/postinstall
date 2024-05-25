@@ -167,4 +167,7 @@ EOT
 
 chmod +x /apps/editHostname.sh
 
+chmod +x installFastFetch.sh
+./installFastFetch.sh
+
 nala fetch
