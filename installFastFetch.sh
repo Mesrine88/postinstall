@@ -24,5 +24,6 @@ sudo sed -i 's/neofetch/fastfetch/' /etc/profile.d/motd.sh
 # or sometimes
 # sudo sed -i 's/neofetch/fastfetch/' /etc/profile.d/wwlabs.sh
 
-# Remove abandoned neofetch
+# Remove abandoned neofetch and .deb Package
 apt purge neofetch -y
+rm -rf fastfetch-linux-amd64.deb
