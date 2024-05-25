@@ -57,8 +57,7 @@ chmod +x /etc/profile.d/motd.sh
 chmod +x /apps/postinstall/allowRootSSHLogin.sh
 bash /apps/postinstall/allowRootSSHLogin.sh
 
-nala fetch
-
+./installFastFetch.sh
 
 # Remove Subscription Banner
 sed -Ezi.bak "s/(Ext.Msg.show\(\{\s+title: gettext\('No valid sub)/void\(\{ \/\/\1/g" /usr/share/javascript/proxmox-widget-toolkit/proxmoxlib.js && systemctl restart pveproxy.service
@@ -69,3 +68,5 @@ grep -n -B 1 'No valid sub' proxmoxlib.js
 # For Restore
 # Reinstall the proxmox-widget-toolkit package from the repository:
 # apt-get install --reinstall proxmox-widget-toolkit
+
+nala fetch
