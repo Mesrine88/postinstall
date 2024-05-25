@@ -32,7 +32,10 @@ echo -e "${NC} "
 ip a | grep /22
 echo -e "${NC} "
 
-neofetch
+fastfetch
 
+echo -e "${NC} "
+echo -e "${NC} "
+ip a | grep /22
 echo -e "${NC} "
 echo -e "${NC} "
